@@ -1,0 +1,75 @@
+*,
+ *::after,
+ *::before {
+    margin: 0;
+    padding: 0;
+    
+ }
+ 
+ html {
+    // this define what 1rem is
+     font-size: 62.5%;  //1 rem = 10px;     10px /16px = 62.5%
+
+ }
+ 
+ body{
+ box-sizing: border-box;
+ 
+ padding: 0rem 0rem;
+
+ }
+
+
+
+ // colors
+$color-primary:#f7f9fa;
+$color-primary-light: #e8f1fa;
+$color-primary-dark:#6156a6;
+
+
+$color-secondary-light: #afaeb8;
+$color-secondary-dark: #23093d;
+
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+
+
+
+$color-gray-light-1: #c0bed4;
+$color-gray-light-2: #ebf5f7;
+
+
+
+
+$color-gray-dark:#504276 ;
+$color-gray-dark-2:#999;
+$color-gray-dark-3:#ccc8e8;
+
+
+
+$color-white: #fff;
+$color-black: #000;
+
+
+
+// font 
+$default-font-size: 1.6rem;
+
+
+
+// grid
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal:6rem;
+
+
+
+
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.35em; //900px
+$bp-small: 37.5em;
+$bp-smallest: 31.25em;

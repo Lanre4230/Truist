@@ -1,0 +1,133 @@
+.header {
+       height: 80vh;
+
+      padding: 2rem 3rem;
+      position: relative;
+      background-image: url(../multimedia/nat-9.jpg);
+      background-size: cover;
+      
+
+
+
+
+      @media only screen and(max-width: 31.25em) {
+         
+         background-image: url(../multimedia/nat-9.jpg);
+         background-size: cover;
+        
+       
+   
+         }
+   
+
+
+    
+     &__text {
+          
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+       
+
+         @media only screen and(max-width: 31.25em) {
+            margin-top: -3rem;
+              width: 70%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  
+         }
+     }
+
+
+     &__text-1 {
+        font-size:5rem;
+        text-transform: uppercase;
+         margin-bottom: 3rem;
+        color: #fff;
+
+
+        @media only screen and(max-width: 31.25em) {
+         font-size: 3rem;
+          margin-top: 20rem;
+      
+   
+         }
+   
+     }
+
+
+     &__text-2{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+
+         @media only screen and(max-width: 31.25em) {
+         font-size: 2rem;
+         font-family: sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+        
+         }
+
+     }
+
+         &__btn:link,
+        &__btn:visited {
+
+            font-size: 2rem;
+            font-family: sans-serif; 
+            font-weight: 100;
+            text-transform: uppercase;
+            display: inline-block;
+            border: none;
+            text-decoration: none;
+            background-color: #fff;
+            padding: 1.8rem 5rem;
+            border: 3px solid #ffff;
+            border-radius: 1rem;
+           
+          
+            position: absolute;
+              top: 25rem;
+             left: 20rem;
+
+   @media only screen and(max-width: 31.25em) {
+             
+              top: 65rem;
+             left: 1rem;
+ }
+
+ @media only screen and(max-width: 59.37em) {
+   display: none;          
+ 
+}
+
+        }
+
+    
+
+
+
+
+     &__btn:hover {
+
+       background-color: transparent;
+       color: #fff;
+     }
+      
+        
+
+}
+
+
+
+  
+
+
+
+
+
+
