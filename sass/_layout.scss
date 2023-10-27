@@ -13,7 +13,7 @@
       
        margin-top: 5rem;
        margin-bottom: 5rem;
-       height: 101vh;
+      //  height: 101vh;
        background-color: $color-primary-light;
        padding: 5rem 5rem;
        border-radius: 4rem;
@@ -26,13 +26,13 @@
 
     @media only screen and(max-width: 59.37em) {
         
-       height: 50vh;
+        // height: 50vh;
     } 
 
     
     @media only screen and(max-width: 31.25em) {
-       height: 100vh; 
-       width: 100vh;
+      //  height: 20vh; 
+      //  width: 20vh;
        margin-top: 0rem;
        margin-bottom: 0rem;
 
@@ -44,8 +44,7 @@
     }
 
     &__board-1 {
-    // background-color: red;
-    //   margin-left: -9rem;
+    
         padding: 7rem 7rem;
     }
 

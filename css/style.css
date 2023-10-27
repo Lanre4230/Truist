@@ -13,7 +13,6 @@
     .navigation > *:not(:last-child) {
       margin-right: 2rem; } }
   .navigation__img-1 {
-    background-color: red;
     width: 10%; }
     @media only screen and (max-width: 59.37em) {
       .navigation__img-1 {
@@ -272,19 +271,13 @@ body {
     display: flex;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    height: 101vh;
     background-color: #e8f1fa;
     padding: 5rem 5rem;
     border-radius: 4rem; }
     .section-global__board > *:not(:last-child) {
       margin-right: 10rem; }
-    @media only screen and (max-width: 59.37em) {
-      .section-global__board {
-        height: 50vh; } }
     @media only screen and (max-width: 31.25em) {
       .section-global__board {
-        height: 100vh;
-        width: 100vh;
         margin-top: 0rem;
         margin-bottom: 0rem;
         padding: 2rem 0rem; } }

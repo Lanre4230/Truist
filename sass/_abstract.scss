@@ -35,7 +35,7 @@
 
 
     &__img-1 {
-    background-color: red;
+    
      width: 10%;
 
      @media only screen and(max-width: 59.37em) {
@@ -52,8 +52,7 @@
      @media only screen and(max-width: 31.25em) {
       width: 30%;
      
-      //   display: flex;
-      //   justify-content: space-between;
+     
 
       }
 
@@ -127,13 +126,7 @@ font-weight: 100;
 }
 
 
-    // &__list-1 {
-    //   background-color: purple;
-    //   width: 10vh;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
+   
 
     &__icon {
       fill: var(black);
@@ -163,14 +156,7 @@ font-weight: 100;
              
             }
 
-      //      & > *:not(:last-child) {
-      //          margin-bottom: 4rem;
-      //       }
-            
-      //    }
-
-      //     & > *:not(:last-child) {
-      //    margin-right: 4rem;
+     
      
       }
 
